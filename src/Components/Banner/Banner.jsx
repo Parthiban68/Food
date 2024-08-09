@@ -14,7 +14,7 @@ function Banner() {
     // <div>
    <div className='flex items-center justify-center flex-col h-[500px]'>
     <div>
-   <h1 className='py-8 tracking-wider text-3xl font-bold text-center'><span className=" font-cursive text-primary text-[40px]">Taste The Difference</span></h1>
+   <h1 className='py-8 tracking-wider text-6xl font-bold text-center font-cursive text-primary'>Taste The Difference</h1>
     </div>
           <Swiper
             breakpoints={{
@@ -33,7 +33,7 @@ function Banner() {
               clickable: true
             }}
             modules={[FreeMode, Pagination]}
-            className='max-w-[80%] lg:max-w-[90%] rounded-3xl lg:px-10 lg:py-5 '
+            className='max-w-[90%] lg:max-w-[90%] rounded-3xl lg:px-10 lg:py-5 '
             // style={{backgroundImage: `URL(${bg})`}}
           >
             {card.map((items) => (
